@@ -1,8 +1,15 @@
 .app {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-  }
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(7, 27, 116, 20%);
+  color: rgba(7, 27, 116, 10%);
+  min-height: 100vh;
+  min-width: 450px;
+}
+
+.app section {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+}

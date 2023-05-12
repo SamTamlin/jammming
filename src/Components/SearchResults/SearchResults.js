@@ -1,13 +1,14 @@
 import React from "react";
 
+import style from './SearchResults.module.css'
 import Tracklist from "../Tracklist/Tracklist";
 
 
-const SearchResults = () => {
+const SearchResults = ({searchResults, onAdd}) => {
     return(
-        <div>
+        <div className={style.searchresults}>
             <h2>Search Results</h2>
-            <Tracklist />
+            <Tracklist tracks={searchResults} onAdd={onAdd}/>
         </div>
     );
 }

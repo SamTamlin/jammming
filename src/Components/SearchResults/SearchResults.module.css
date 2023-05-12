@@ -1,0 +1,14 @@
+.searchresults {
+    width: 45%;
+    /* border: blue solid 1px; */
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(110, 33, 182, 90%);
+}
+
+.searchresults h2 {
+    margin: 0.5ch;
+    height: 2.5ch;
+    font-size: 2.75ch;
+    /* border: red solid 1px; */
+}

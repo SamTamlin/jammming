@@ -1,10 +1,14 @@
-import style from './Search.module.css';
+import style from '../button.module.css';
 
-import React from 'react';
+import React, { useCallback } from 'react';
 
 
-const SearchButton = () => {
-    return <button className={style.button}>Search</button>
+const SearchButton = ({onSearch, term}) => {
+    const search = useCallback(() => {
+        onSearch(term)
+    }, [onSearch, term]);
+
+    return <button className={style.button} onClick={search}>Search</button>
 }
 
 export default SearchButton;

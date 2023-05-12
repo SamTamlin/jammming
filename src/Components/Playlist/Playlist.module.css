@@ -1,0 +1,21 @@
+.playlist {
+    width: 45%;
+    /* border: blue solid 1px; */
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(110, 33, 182, 90%);
+
+}
+
+.playlist input {
+    margin: 0.5ch;
+    height: 2.5ch;
+    font-size: 2.75ch;
+    max-width: 80%;
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 0%;
+    text-align: center;
+    border: none;
+}

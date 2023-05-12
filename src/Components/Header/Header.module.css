@@ -1,0 +1,15 @@
+.header {
+    color: white;
+    font-weight: 800;
+    background-color: rgba(110, 33, 182, 90%);
+    border: black solid 1px;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.strong {
+    color: black;
+    /* font-weight: 800; */
+}

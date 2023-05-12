@@ -1,0 +1,33 @@
+.track {
+    color: black;
+    background-color:rgb(199, 204, 224); 
+    border: rgb(7, 27, 116) solid 1px;
+    height:17ch;
+    padding: 0ch 1ch 0ch 1ch;
+    overflow: scroll;
+}
+
+.track p, .track h3{
+    line-height: 1;
+    padding: 0%;
+    margin: 0.5ch;
+    /* border: red solid 1px; */
+}
+
+.track button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #071b74;
+    color: white;
+    margin: 1ch;
+}
+
+.track button:hover {
+    background-color: rgba(110, 33, 182, 90%);
+}
+
+.track button:active {
+    color: black;
+}
