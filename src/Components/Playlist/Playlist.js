@@ -10,7 +10,10 @@ const Playlist = ({playListName, playListTracks, onNameChange, onRemove, onSave}
 
     return (
         <div className={style.playlist}>
-            <input onChange={handleNameChange} id='listname' defaultValue={playListName}/>
+            <input 
+                onChange={handleNameChange}
+                value={playListName}
+            />
             <Tracklist 
                 tracks={playListTracks}
                 isRemoval={true}

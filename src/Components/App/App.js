@@ -37,10 +37,8 @@ const App = () => {
 
     const savePlayList = useCallback(() => {
         const trackURis = playListTracks.map((track) => track.uri);
-        let listInput = document.getElementById('listname').value
         Spotify.savePlaylist(playListName, trackURis).then(() => {
             setPlayListName('New Playlist');
-            listInput = playListName;
             setPlayListTracks([]);
         });
     }, [playListName, playListTracks]);
